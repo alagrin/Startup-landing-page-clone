@@ -13,13 +13,15 @@ div {
   border-bottom: 1px solid #DDD;
 }
 .top-navigation > .content {
-float: left;
+  width:970px;
+  height: 70px;
+  margin: 0 auto;
 }
 .top-navigation .logo {
-
+  margin-left: 275px;
 }
 .top-navigation .Links {
-
+float: right;
 }
 .top-navigation .Links li {
 float:left; 
@@ -29,8 +31,6 @@ width: 100px;
 
 ul {
   margin: 0;
-  padding: 0;
-  display: block;
   font-size: 18px;
   text-align: center;
   list-style: none;

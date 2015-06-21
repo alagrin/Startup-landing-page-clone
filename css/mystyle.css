@@ -1,0 +1,38 @@
+body {
+  background-color: LightGray;
+  margin-right: auto;
+  margin-left: auto;
+}
+div {
+  border: 1px solid Chocolate;
+}
+.top-navigation {
+  background-color: #fff;
+  position: fixed;
+  width:100%;
+  border-bottom: 1px solid #DDD;
+}
+.top-navigation > .content {
+float: left;
+}
+.top-navigation .logo {
+
+}
+.top-navigation .Links {
+
+}
+.top-navigation .Links li {
+float:left; 
+display:inline;
+width: 100px;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  display: block;
+  font-size: 18px;
+  text-align: center;
+  list-style: none;
+}
+

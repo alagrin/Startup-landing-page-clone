@@ -9,6 +9,7 @@ body {
   position: fixed;
   width:100%;
   border-bottom: 1px solid #DDD;
+  top:0;
 }
 .top-navigation > .content {
   width:970px;
@@ -17,7 +18,7 @@ body {
   padding: 0px 15px;
 }
 .top-navigation .logo {
-  
+  padding-top: 15px;
 }
 .top-navigation .Links {
   float: right;
@@ -32,4 +33,30 @@ body {
 display:inline;
 margin-left: 25px;
 }
+.introduction > .graphic {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  height: 46rem;
+  overflow: auto;
+}
+.introduction .content {
 
+}
+.introduction h1{
+  
+}
+.introduction h1,h3{
+  text-align: center;
+  color: white;
+  position: center;
+}
+button {
+font-size: 30px;
+background-color: orange;
+border-radius: 4px;
+border-style: none;
+color: white;
+font-weight: lighter;
+text-shadow: none;
+}

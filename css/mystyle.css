@@ -3,9 +3,7 @@ body {
   margin-right: auto;
   margin-left: auto;
 }
-div {
-  border: 1px solid Chocolate;
-}
+
 .top-navigation {
   background-color: #fff;
   position: fixed;
@@ -16,23 +14,22 @@ div {
   width:970px;
   height: 70px;
   margin: 0 auto;
+  padding: 0px 15px;
 }
 .top-navigation .logo {
-  margin-left: 275px;
+  
 }
 .top-navigation .Links {
-float: right;
+  float: right;
+  font-family: 'Roboto', sans-serif; 
+  font-size: 18px; 
+  color: #838994; 
+  letter-spacing: 0.03em;
+  margin-top:25px;
+  -webkit-font-smoothing: antialiased;
 }
-.top-navigation .Links li {
-float:left; 
+.top-navigation .Links li { 
 display:inline;
-width: 100px;
-}
-
-ul {
-  margin: 0;
-  font-size: 18px;
-  text-align: center;
-  list-style: none;
+margin-left: 25px;
 }
 

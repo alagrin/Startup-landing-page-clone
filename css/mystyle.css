@@ -108,3 +108,7 @@ display: flex;
   font-size: 1.7rem;
 }
 hr{margin-top: 200px;}
+.social {
+  text-align: center;
+}
+i{border-radius: 30px}

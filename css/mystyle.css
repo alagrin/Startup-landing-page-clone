@@ -1,5 +1,5 @@
 body {
-  background-color: LightGray;
+  background-color: white;
   margin-right: auto;
   margin-left: auto;
   font-family: 'Roboto', sans-serif; 
@@ -14,6 +14,7 @@ body {
   position: fixed;
   width:100%;
   border-bottom: 1px solid #DDD;
+  z-index: 9999;
   top:0;
 }
 .top-navigation > .content {
@@ -67,20 +68,43 @@ margin-left: 25px;
 }
 button {
 font-size: 1.4rem;
-background-color: #f15a29;
+background-color: red;
 border-radius: 4px;
 border-style: none;
 color: white;
 text-shadow: none;
 padding: 1rem 1.5rem; 
 }
+button:hover {
+  background-color: darkorange;
+  cursor: pointer;
+}
+.info {
+  text-align: center;
+  margin-top: 100px;
+  color: black;
+  font-weight: 100;
+  padding: 0 20rem;
+}
+
 .listcontainer ul{
 list-style: none;
 margin: 0;
 padding: 0;
+color: black;
+display: flex;
 }
 .listcontainer ul li{
   display: inline-block;
   float: left;
   width: 33.3%;
+  color: black;
+  box-sizing: border-box;
+  height: 4em;
 }
+.info h3{
+  color: black;
+  font-weight: 400;
+  font-size: 1.7rem;
+}
+hr{margin-top: 200px;}
